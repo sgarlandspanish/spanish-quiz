@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Translation Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Spanish Translation Quiz</h1>
+    <p>Please translate the following sentences into English:</p>
+    <form action="https://script.google.com/macros/s/AKfycbw17G5JEPRddvZnhp8wLyOxH-VYoej80nfbjXpictoM8yizVQEfBLvJSHq6FNGzvUwV/exec" method="POST">
+        <!-- Question 1 -->
+        <label for="sentence1">1. Hola! ¿Cómo estás? Me llamo ____________.</label>
+        <input type="text" id="sentence1" name="sentence1" required>
+
+        <!-- Question 2 -->
+        <label for="sentence2">2. Soy de Mount Vernon, Georgia.</label>
+        <input type="text" id="sentence2" name="sentence2" required>
+
+        <!-- Question 3 -->
+        <label for="sentence3">3. Soy de los Estados Unidos.</label>
+        <input type="text" id="sentence3" name="sentence3" required>
+
+        <!-- Question 4 -->
+        <label for="sentence4">4. Mi amiga, Elena, tiene diez y seis años.</label>
+        <input type="text" id="sentence4" name="sentence4" required>
+
+        <!-- Question 5 -->
+        <label for="sentence5">5. Mi número de teléfono es ocho-ocho-tres, nueve, cuatro, dos.</label>
+        <input type="text" id="sentence5" name="sentence5" required>
+
+        <!-- Question 6 -->
+        <label for="sentence6">6. Hoy es miércoles, el seis de enero.</label>
+        <input type="text" id="sentence6" name="sentence6" required>
+
+        <!-- Question 7 -->
+        <label for="sentence7">7. Son las siete y media.</label>
+        <input type="text" id="sentence7" name="sentence7" required>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
